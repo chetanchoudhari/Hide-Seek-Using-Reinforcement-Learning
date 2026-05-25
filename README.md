@@ -1,6 +1,5 @@
 ## Screenshots
 ![Introduction](Screenshots/introduction1.jpeg)
-![Gameplay](Screenshots/gameplay.png)
 # AI Hide and Seek using Reinforcement Learning
 
 AI-powered hide and seek simulation developed in Unity using ML-Agents and Proximal Policy Optimization (PPO). The project demonstrates intelligent multi-agent behavior where AI agents learn to hide, seek, navigate, and adapt inside a dynamic environment using reinforcement learning.
@@ -10,6 +9,7 @@ AI-powered hide and seek simulation developed in Unity using ML-Agents and Proxi
 # Project Overview
 
 This project focuses on creating an intelligent hide-and-seek simulation where multiple AI agents interact inside a Unity environment. The agents are trained using reinforcement learning techniques to develop strategic behaviors over time.
+![Gameplay](Screenshots/gameplay.png)
 
 The project was developed as a major academic project to explore:
 
@@ -154,19 +154,20 @@ Key advantages of PPO:
 
 ## Gameplay Environment
 
-![Gameplay](Screenshots/.png)
+![Gameplay](Screenshots/gameplay.png)
 
 ## AI Training Environment
 
-![Training](Screenshots/training.png)
+![Training](Screenshots/env(1).png)
 
 ## Hider and Seeker Agents
 
-![Agents](Screenshots/agents.png)
+![Agents](Screenshots/hiderr.png)
+![Agents](Screenshots/seekeer.png)
 
 ## Unity Scene Setup
 
-![Scene](Screenshots/environment.png)
+![Scene](Screenshots/seeker(3).png)
 
 ---
 
@@ -174,8 +175,7 @@ Key advantages of PPO:
 
 Add your project demo video link below:
 
-```md
-https://youtu.be/dm_gu3XAAks
+```md https://youtu.be/dm_gu3XAAks
 ```
 
 ```md
@@ -274,6 +274,7 @@ Additional project documentation can be added inside the `Docs/` folder.
 Example:
 
 ```text
+
 Docs/
 ├── project_report.pdf
 ├── architecture_diagram.png
