@@ -21,7 +21,150 @@ The project was developed as a major academic project to explore:
 * Environment interaction and navigation
 
 ---
+Educational Purpose and Research Inspiration
 
+This project was developed purely for educational and learning purposes.
+
+The project is inspired by reinforcement learning research and AI hide-and-seek experiments discussed in the AI research community. The objective was to understand and experiment with reinforcement learning systems practically using Unity ML-Agents.
+
+We do not claim that the entire AI architecture or learning framework was created completely from scratch. Instead, the project focuses on:
+
+Understanding reinforcement learning workflows
+Experimenting with agent behaviors
+Testing AI interaction systems
+Learning practical ML-Agent implementation
+
+The project mainly relies on:
+
+Unity ML-Agents
+PPO-based reinforcement learning
+Environment experimentation
+Limited training iterations
+
+Due to hardware and computational limitations, only a smaller amount of training data was generated and used to demonstrate the project prototype.
+
+Although the final system does not fully achieve highly advanced emergent hide-and-seek intelligence, it successfully demonstrates the practical implementation and study of reinforcement learning concepts within Unity.
+
+
+Reinforcement Learning and AI System Explanation
+Reinforcement Learning (RL)
+
+Reinforcement Learning is a machine learning technique where an agent learns by interacting with an environment. Instead of being directly programmed with fixed behaviors, the agent improves over time using rewards and penalties.
+
+In this project:
+
+The environment is created in Unity
+The agents interact with objects and obstacles
+Rewards encourage useful behavior
+Penalties discourage incorrect actions
+
+The AI gradually learns movement and decision-making patterns through repeated training episodes.
+
+Unity ML-Agents
+
+The project uses the Unity ML-Agents Toolkit, which provides a bridge between Unity and Python-based machine learning training systems.
+
+ML-Agents was used because it allows:
+
+Agent training inside Unity environments
+Reinforcement learning integration
+Observation and action systems
+Real-time AI experimentation
+PPO-based training workflows
+
+The toolkit helped in creating AI agents without building the entire reinforcement learning framework from scratch.
+
+PPO Algorithm
+
+The project uses PPO (Proximal Policy Optimization), a reinforcement learning algorithm commonly used for stable AI training.
+
+PPO was selected because:
+
+It provides stable learning updates
+It is efficient for continuous training
+It works well in dynamic game environments
+It is supported directly by Unity ML-Agents
+
+The algorithm continuously updates agent behavior based on rewards received during gameplay interactions.
+
+Python Integration
+
+Python is used for:
+
+Running the training process
+Managing reinforcement learning models
+Processing observations and rewards
+Updating the PPO neural network
+
+The Unity environment communicates with Python during training using the ML-Agents framework.
+
+Training is heavily dependent on:
+
+Hardware capability
+Training duration
+Amount of generated training data
+Environment complexity
+
+Due to hardware limitations and limited training time, only a smaller training dataset and shorter training sessions were generated for demonstration purposes.
+
+Unity GameObjects and Agents
+
+In Unity, the AI characters are implemented using GameObjects combined with ML-Agent components.
+
+Each agent contains:
+
+Rigidbody for movement physics
+Agent script for decision-making
+Sensors for environment observation
+Reward system logic
+Action handling system
+
+The environment also contains:
+
+Obstacles
+Walls
+Navigation areas
+Interactive objects
+Spawn points
+
+These GameObjects form the training environment where the AI learns through interaction.
+
+Ray Sensors and Observation System
+
+Ray Sensors are used to help agents observe the environment.
+
+Ray sensors work similarly to vision detection:
+
+Rays are projected around the agent
+Objects are detected based on distance and direction
+Information is converted into observations for the AI model
+
+The agents use ray sensor observations to:
+
+Detect obstacles
+Locate opponents
+Navigate through the environment
+Avoid collisions
+
+This observation data is sent to the PPO model during training.
+Agent Training Workflow
+Unity Environment
+        ↓
+ML-Agent observes environment
+        ↓
+Ray Sensors collect observations
+        ↓
+Observations sent to PPO model
+        ↓
+Python training process updates policy
+        ↓
+Agent receives action
+        ↓
+Movement and interaction occur
+        ↓
+Rewards/Penalties assigned
+        ↓
+Training continues
 # Features
 
 ## Intelligent AI Agents
