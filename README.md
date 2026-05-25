@@ -21,37 +21,60 @@ The project was developed as a major academic project to explore:
 * Environment interaction and navigation
 
 ---
-Educational Purpose and Research Inspiration
+ # Educational Purpose and Research Inspiration
+This project was developed purely for educational and learning purposes as part of academic exploration into Artificial Intelligence, Reinforcement Learning, and Unity ML-Agents.
+The project is inspired by research and experiments related to AI hide-and-seek environments, including publicly discussed concepts and demonstrations in the AI research community. We do not claim that the entire system or learning architecture was created completely from scratch.
+The project uses pre-defined Unity ML-Agents components and reinforcement learning workflows. Our focus was on testing, experimenting, modifying environments, observing behavior patterns, and attempting to create our own version of AI-based hide and seek gameplay.
 
+During development, several practical challenges were faced, including:
+
+Limited hardware resources
+Long training durations
+Performance bottlenecks
+Environment balancing issues
+Training instability
+Limited computational capability for large-scale training
+
+Because reinforcement learning systems heavily depend on training time, computational power, and large amounts of generated training data, the project currently demonstrates a simplified prototype version. Only a limited amount of training data and training iterations were generated and used to showcase the AI behavior in the final demo.
+
+Although the project does not fully achieve advanced emergent hide-and-seek intelligence, it successfully demonstrates the practical implementation and understanding of reinforcement learning concepts using Unity ML-Agents.
+
+Challenges Faced
+Designing intelligent multi-agent behavior
+Balancing reward and penalty systems
+Training stability and convergence issues
+Performance optimization during large training sessions
+Environment balancing and AI adaptation
 This project was developed purely for educational and learning purposes.
 
 The project is inspired by reinforcement learning research and AI hide-and-seek experiments discussed in the AI research community. The objective was to understand and experiment with reinforcement learning systems practically using Unity ML-Agents.
 
-We do not claim that the entire AI architecture or learning framework was created completely from scratch. Instead, the project focuses on:
+## We do not claim that the entire AI architecture or learning framework was created completely from scratch. Instead, the project focuses on: ##
 
-Understanding reinforcement learning workflows
+# Understanding reinforcement learning workflows
 Experimenting with agent behaviors
 Testing AI interaction systems
 Learning practical ML-Agent implementation
 
-The project mainly relies on:
-
+# The project mainly relies on:
 Unity ML-Agents
 PPO-based reinforcement learning
 Environment experimentation
 Limited training iterations
 
 Due to hardware and computational limitations, only a smaller amount of training data was generated and used to demonstrate the project prototype.
-
 Although the final system does not fully achieve highly advanced emergent hide-and-seek intelligence, it successfully demonstrates the practical implementation and study of reinforcement learning concepts within Unity.
-
-
 Reinforcement Learning and AI System Explanation
 Reinforcement Learning (RL)
-
 Reinforcement Learning is a machine learning technique where an agent learns by interacting with an environment. Instead of being directly programmed with fixed behaviors, the agent improves over time using rewards and penalties.
+The primary goal of this project was to:
+Understand reinforcement learning concepts practically
+Explore Unity ML-Agents
+Experiment with AI agent behavior
+Study training-based decision systems
+Learn how PPO-based agents interact with dynamic environments
 
-In this project:
+## In this project:
 
 The environment is created in Unity
 The agents interact with objects and obstacles
@@ -74,21 +97,16 @@ PPO-based training workflows
 
 The toolkit helped in creating AI agents without building the entire reinforcement learning framework from scratch.
 
-PPO Algorithm
-
+# PPO Algorithm
 The project uses PPO (Proximal Policy Optimization), a reinforcement learning algorithm commonly used for stable AI training.
-
 PPO was selected because:
-
 It provides stable learning updates
 It is efficient for continuous training
 It works well in dynamic game environments
 It is supported directly by Unity ML-Agents
-
 The algorithm continuously updates agent behavior based on rewards received during gameplay interactions.
 
-Python Integration
-
+#Python Integration
 Python is used for:
 
 Running the training process
@@ -107,7 +125,7 @@ Environment complexity
 
 Due to hardware limitations and limited training time, only a smaller training dataset and shorter training sessions were generated for demonstration purposes.
 
-Unity GameObjects and Agents
+# Unity GameObjects and Agents
 
 In Unity, the AI characters are implemented using GameObjects combined with ML-Agent components.
 
@@ -129,12 +147,10 @@ Spawn points
 
 These GameObjects form the training environment where the AI learns through interaction.
 
-Ray Sensors and Observation System
+#Ray Sensors and Observation System
 
-Ray Sensors are used to help agents observe the environment.
-
+Ray Sensors are used to help agents observe the environment
 Ray sensors work similarly to vision detection:
-
 Rays are projected around the agent
 Objects are detected based on distance and direction
 Information is converted into observations for the AI model
@@ -147,7 +163,7 @@ Navigate through the environment
 Avoid collisions
 
 This observation data is sent to the PPO model during training.
-Agent Training Workflow
+## Agent Training Workflow ##
 Unity Environment
         ↓
 ML-Agent observes environment
