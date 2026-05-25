@@ -175,15 +175,9 @@ Key advantages of PPO:
 
 Add your project demo video link below:
 
-```md https://youtu.be/dm_gu3XAAks
-```
+## Demo Video
 
-```md
-https://youtu.be/your-video-id
-```
-
----
-
+[![Watch the demo](https://img.youtube.com/vi/dm_gu3XAAks/maxresdefault.jpg)](https://youtu.be/dm_gu3XAAks)
 # Installation Guide
 
 ## Prerequisites
